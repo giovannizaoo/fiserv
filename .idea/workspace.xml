@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00c646c8-97cf-47e1-a5fe-59735dbc6b81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/accountRecord/request/AccountRecordRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/hierarchy/request/HierarchyRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/mcc/request/MccRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/merchantProperties/request/MerchantPropertiesRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/referenceFields/request/ReferenceFieldsRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/token/request/TokenCatRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/token/request/TokenUatRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/token/response/Token200ResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/pages/BaseApiPageCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/pages/BaseApiPageUat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountCurrency/AccountCurrencyApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountFees/AccountFeesApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountRecord/AccountRecordApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountSettlements/AccountSettlementsApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountType/AccountTypeApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/acquirerProfile/AcquirerProfileApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/allTerminalValues/AllTerminalValuesApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/contracts/ContractsApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/data/DataApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/dataCountryCode/DataCountryCodeApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/hierarchy/HierarchyApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/mcc/MccApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/merchantProperties/MerchantPropertiesApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/optionalDetails/OptionalDetailsApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/referenceFields/ReferenceFieldsApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/services/ServicesApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/token/TokenApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/token/TokenContratoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/transactionCharges/TransactionChargesApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/transactionChargesAll/TransactionChargesAllApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/ApiKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/ClientSecret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/Hmac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/Uuid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schemas/funcionalidadesFiserv/EndpointTokenStatusCode200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fiservFuncionalidades/RegressionMasterRunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountCurrency/funcionalApi/CT001 - Account Currency Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountCurrency/funcionalApi/CT002 - Account Currency Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountFees/funcionalApi/CT001 - Account Fees Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountFees/funcionalApi/CT002 - Account Fees Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountRecord/funcionalApi/CT001 - Account Record Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountRecord/funcionalApi/CT002 - Account Record Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountSettlements/funcionalApi/CT001 - Account Settlements Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountSettlements/funcionalApi/CT002 - Account Settlements Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountType/funcionalApi/CT001 - Account Type Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountType/funcionalApi/CT002 - Account Type Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/acquirerProfile/funcionalApi/CT001 - Acquirer Profile Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/acquirerProfile/funcionalApi/CT002 - Acquirer Profile Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/allTerminalValues/funcionalApi/CT001 - All Terminal Values Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/allTerminalValues/funcionalApi/CT002 - All Terminal Values Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/contracts/funcionalApi/CT001 - Contracts Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/contracts/funcionalApi/CT002 - Contracts Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/data/funcionalApi/CT001 - Data Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/data/funcionalApi/CT002 - Data Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/dataCountryCode/funcionalApi/CT001 - Data Country Code Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/dataCountryCode/funcionalApi/CT002 - Data Country Code Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/hierarchy/funcionalApi/CT001 - Hierarchy Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/hierarchy/funcionalApi/CT002 - Hierarchy Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/mcc/funcionalApi/CT001 - Mcc Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/mcc/funcionalApi/CT002 - Mcc Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/merchantProperties/funcionalApi/CT001 - Merchant Properties Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/merchantProperties/funcionalApi/CT002 - Merchant Properties Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/optionalDetails/funcionalApi/CT001 - Optional Details Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/optionalDetails/funcionalApi/CT002 - Optional Details Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/referenceFields/funcionalApi/CT001 - Reference Fields Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/referenceFields/funcionalApi/CT002 - Reference Fields Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/services/funcionalApi/CT001 - Serivices Cat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/services/funcionalApi/CT002 - Serivices Uat Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/token/contratoApi/CT003 - Contrato Token Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/token/funcionalApi/CT001 - Token Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/token/funcionalApi/CT002 - Token Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionCharges/funcionalApi/CT001 - Transaction Charges Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionCharges/funcionalApi/CT002 - Transaction Charges Uat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionChargesAll/funcionalApi/CT001 - Transaction Charges All Cat 200 Sucesso.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionChargesAll/funcionalApi/CT002 - Transaction Charges All Uat 200 Sucesso.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="34RAtlvzxdu53SX90UkWSDhQXGq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: CT001 - Account Currency Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Account Record Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Account Settlements Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Account Type Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Acquirer Profile Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - All Terminal Values Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Contracts Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Data Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Data Country Code Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Execucao 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Hierarchy Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Mcc Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Merchant Properties Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Optional Details Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Reference Fields 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Reference Fields Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Serivices Cat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Token Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Token Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Transaction Charges 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Transaction Charges All Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT001 - Transaction Charges Cat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Account Currency Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Account Fees Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Account Record Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Account Settlements Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Account Type Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Acquirer Profile Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - All Terminal Values Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Contracts Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Data Country Code Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Hierarchy Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Mcc Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Merchant Properties Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Optional Details Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Reference Fields Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Serivices Uat Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Token Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Token Uat 201 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Transaction Charges All Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT002 - Transaction Charges Uat 200 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT003 - Contrato Token Uat 201 Sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: CT003 - Token 3 CaT.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Account Currency com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Account fees com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Account record com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Acquirer Profile com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Data com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Execucao com sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Hierarchy com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Mcc com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Merchant propertiess com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Optional details com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Reference Fields com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Services com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Token com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Transaction Charges all com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT001 - Transaction Charges com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Account Currency com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Account Type com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Account fees com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Account record com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - All Terminal Valuescom sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Contracts com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Contrato Execucao com sucesso (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Contrato Execucao com sucesso.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Data com sucesso country code utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Data com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Hierarchy com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Mcc com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Merchant propertiess com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Optional details com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Reference Fields com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Services com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Token com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Transaction Charges all com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - Transaction Charges com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT002 - account settlements com sucesso utilizando a base uat.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: CT003 - Token com sucesso utilizando a base cat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegressionMasterRunTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegressivoTotal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegressivoTotalTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/giova/IdeaProjects/fiserv/src/main/java/com/fiserv/Main.java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giova\IdeaProjects\fiserv\src\test\resources\features\fiservFuncionalidades\allTerminalValues\funcionalApi" />
+      <recent name="C:\Users\giova\IdeaProjects\fiserv\src\test\resources\features\fiservFuncionalidades\accountCurrency\funcionalApi" />
+      <recent name="C:\Users\giova\IdeaProjects\fiserv\src\test\resources\features\fiservFuncionalidades\accountFees\funcionalApi" />
+      <recent name="C:\Users\giova\IdeaProjects\fiserv\src\test\resources\features\fiservFuncionalidades\accountRecord\funcionalApi" />
+      <recent name="C:\Users\giova\IdeaProjects\fiserv\src\test\resources\features\fiservFuncionalidades\accountSettlements\funcionalApi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RegressionMasterRunTest">
+    <configuration name="Scenario: CT001 - Account Currency com sucesso utilizando a base cat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountCurrency/funcionalApi/CT001 - Account Currency Cat Sucesso.feature" />
+      <option name="GLUE" value="com.fiserv.steps.firservFuncionalidades.accountCurrency com.fiserv.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fiserv" />
+      <option name="NAME_FILTER" value="^CT001 \- Account Currency com sucesso utilizando a base cat$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CT001 \- Account Currency com sucesso utilizando a base cat$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CT001 - Account Currency com sucesso utilizando a base cat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: CT001 - Account fees com sucesso utilizando a base cat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountFees/funcionalApi/CT001 - Account Fees Cat Sucesso.feature" />
+      <option name="GLUE" value="com.fiserv.steps.firservFuncionalidades.accountFees com.fiserv.pages" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fiserv" />
+      <option name="NAME_FILTER" value="^CT001 \- Account fees com sucesso utilizando a base cat$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CT001 \- Account fees com sucesso utilizando a base cat$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CT001 - Account fees com sucesso utilizando a base cat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: CT001 - Account record com sucesso utilizando a base cat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountRecord/funcionalApi/CT001 - Account Record Cat Sucesso.feature" />
+      <option name="GLUE" value="com.fiserv.pages com.fiserv.steps.firservFuncionalidades.accountRecord" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fiserv" />
+      <option name="NAME_FILTER" value="^CT001 \- Account record com sucesso utilizando a base cat$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CT001 \- Account record com sucesso utilizando a base cat$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CT001 - Account record com sucesso utilizando a base cat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: CT001 - Transaction Charges all com sucesso utilizando a base cat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionChargesAll/funcionalApi/CT001 - Transaction Charges All Cat 200 Sucesso.feature" />
+      <option name="GLUE" value="com.fiserv.pages com.fiserv.steps.firservFuncionalidades.transactionChargesAll" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fiserv" />
+      <option name="NAME_FILTER" value="^CT001 \- Transaction Charges all com sucesso utilizando a base cat$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CT001 \- Transaction Charges all com sucesso utilizando a base cat$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CT001 - Transaction Charges all com sucesso utilizando a base cat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegressionMasterRunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fiserv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fiservFuncionalidades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fiservFuncionalidades" />
+      <option name="MAIN_CLASS_NAME" value="fiservFuncionalidades.RegressionMasterRunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegressionMasterRunTest" />
+        <item itemvalue="Cucumber Java.Scenario: CT001 - Transaction Charges all com sucesso utilizando a base cat" />
+        <item itemvalue="Cucumber Java.Scenario: CT001 - Account record com sucesso utilizando a base cat" />
+        <item itemvalue="Cucumber Java.Scenario: CT001 - Account fees com sucesso utilizando a base cat" />
+        <item itemvalue="Cucumber Java.Scenario: CT001 - Account Currency com sucesso utilizando a base cat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00c646c8-97cf-47e1-a5fe-59735dbc6b81" name="Changes" comment="" />
+      <created>1761166228185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761166228185</updated>
+    </task>
+    <servers />
+  </component>
+</project>
