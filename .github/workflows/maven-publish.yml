@@ -12,10 +12,10 @@ jobs:
       packages: write
 
     steps:
-      # 🔹 Checkout do código
+      # 🔹 1. Checkout do código
       - uses: actions/checkout@v4
 
-      # 🔹 Configura o JDK
+      # 🔹 2. Configura o JDK
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -24,15 +24,11 @@ jobs:
           server-id: github
           settings-path: ${{ github.workspace }}
 
-      # 🔹 Roda os testes
-      - name: Run Tests
-        run: mvn test
+      # 🔹 3. Roda os testes e gera o relatório do Cucumber
+      - name: Run Tests and Generate Cucumber Report
+        run: mvn clean verify
 
-      # 🔹 Gera o relatório do Cucumber (se estiver configurado no pom.xml)
-      - name: Generate Cucumber Report
-        run: mvn verify
-
-      # 🔹 Publica o relatório como artefato
+      # 🔹 4. Publica o relatório como artefato
       - name: Upload Cucumber Report
         if: always()
         uses: actions/upload-artifact@v4
@@ -40,11 +36,11 @@ jobs:
           name: cucumber-report
           path: target/cucumber-html-reports
 
-      # 🔹 Build do pacote
+      # 🔹 5. Build do pacote Maven
       - name: Build with Maven
         run: mvn -B package --file pom.xml
 
-      # 🔹 Publica no GitHub Packages
+      # 🔹 6. Publica no GitHub Packages
       - name: Publish to GitHub Packages Apache Maven
         run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
