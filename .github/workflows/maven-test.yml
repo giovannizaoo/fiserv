@@ -2,9 +2,8 @@ name: 🧪 Run Automated Tests
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    - name: Run Tests and Generate Cucumber Report
+      run: mvn clean verify
 
 jobs:
   test:
