@@ -19,6 +19,6 @@ import org.junit.runner.RunWith;
         monochrome = true
 )
 
-public class RegressionMasterRunTest {
+public class RegressionMasterTest {
 
 }

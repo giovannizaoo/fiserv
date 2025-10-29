@@ -1,0 +1,18 @@
+Index: src/test/java/fiservFuncionalidades/RegressionMasterRunTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/fiservFuncionalidades/RegressionMasterRunTest.java b/src/test/java/fiservFuncionalidades/RegressionMasterTest.java
+rename from src/test/java/fiservFuncionalidades/RegressionMasterRunTest.java
+rename to src/test/java/fiservFuncionalidades/RegressionMasterTest.java
+--- a/src/test/java/fiservFuncionalidades/RegressionMasterRunTest.java	
++++ b/src/test/java/fiservFuncionalidades/RegressionMasterTest.java	
+@@ -19,6 +19,6 @@
+         monochrome = true
+ )
+ 
+-public class RegressionMasterRunTest {
++public class RegressionMasterTest {
+ 
+ }
