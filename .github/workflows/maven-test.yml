@@ -24,13 +24,17 @@ jobs:
           cache: maven
 
       # 🔹 3. Compila e roda os testes
-      - name: Run tests with Maven
+      - name: Run Cucumber Tests
         run: mvn clean test
 
-      # 🔹 4. (Opcional) Publica os relatórios do Cucumber como artefato
-      - name: Upload Cucumber HTML report
+      # 🔹 4. Gera o relatório do Cucumber
+      - name: Generate Cucumber Report
+        run: mvn verify
+
+      # 🔹 5. Publica o relatório como artefato
+      - name: Upload Cucumber Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cucumber-report
-          path: target/cucumber-report.html
+          path: target/cucumber-html-reports
