@@ -4,91 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00c646c8-97cf-47e1-a5fe-59735dbc6b81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/accountRecord/request/AccountRecordRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/hierarchy/request/HierarchyRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/mcc/request/MccRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/merchantProperties/request/MerchantPropertiesRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/referenceFields/request/ReferenceFieldsRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/token/request/TokenCatRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/token/request/TokenUatRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/model/fiservFuncionalidades/token/response/Token200ResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/pages/BaseApiPageCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/pages/BaseApiPageUat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountCurrency/AccountCurrencyApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountFees/AccountFeesApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountRecord/AccountRecordApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountSettlements/AccountSettlementsApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/accountType/AccountTypeApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/acquirerProfile/AcquirerProfileApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/allTerminalValues/AllTerminalValuesApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/contracts/ContractsApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/data/DataApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/dataCountryCode/DataCountryCodeApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/hierarchy/HierarchyApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/mcc/MccApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/merchantProperties/MerchantPropertiesApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/optionalDetails/OptionalDetailsApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/referenceFields/ReferenceFieldsApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/services/ServicesApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/token/TokenApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/token/TokenContratoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/transactionCharges/TransactionChargesApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/steps/firservFuncionalidades/transactionChargesAll/TransactionChargesAllApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/ApiKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/AuthToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/ClientSecret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/Hmac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fiserv/utils/Uuid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schemas/funcionalidadesFiserv/EndpointTokenStatusCode200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fiservFuncionalidades/RegressionMasterRunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountCurrency/funcionalApi/CT001 - Account Currency Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountCurrency/funcionalApi/CT002 - Account Currency Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountFees/funcionalApi/CT001 - Account Fees Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountFees/funcionalApi/CT002 - Account Fees Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountRecord/funcionalApi/CT001 - Account Record Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountRecord/funcionalApi/CT002 - Account Record Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountSettlements/funcionalApi/CT001 - Account Settlements Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountSettlements/funcionalApi/CT002 - Account Settlements Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountType/funcionalApi/CT001 - Account Type Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/accountType/funcionalApi/CT002 - Account Type Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/acquirerProfile/funcionalApi/CT001 - Acquirer Profile Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/acquirerProfile/funcionalApi/CT002 - Acquirer Profile Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/allTerminalValues/funcionalApi/CT001 - All Terminal Values Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/allTerminalValues/funcionalApi/CT002 - All Terminal Values Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/contracts/funcionalApi/CT001 - Contracts Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/contracts/funcionalApi/CT002 - Contracts Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/data/funcionalApi/CT001 - Data Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/data/funcionalApi/CT002 - Data Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/dataCountryCode/funcionalApi/CT001 - Data Country Code Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/dataCountryCode/funcionalApi/CT002 - Data Country Code Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/hierarchy/funcionalApi/CT001 - Hierarchy Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/hierarchy/funcionalApi/CT002 - Hierarchy Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/mcc/funcionalApi/CT001 - Mcc Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/mcc/funcionalApi/CT002 - Mcc Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/merchantProperties/funcionalApi/CT001 - Merchant Properties Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/merchantProperties/funcionalApi/CT002 - Merchant Properties Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/optionalDetails/funcionalApi/CT001 - Optional Details Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/optionalDetails/funcionalApi/CT002 - Optional Details Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/referenceFields/funcionalApi/CT001 - Reference Fields Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/referenceFields/funcionalApi/CT002 - Reference Fields Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/services/funcionalApi/CT001 - Serivices Cat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/services/funcionalApi/CT002 - Serivices Uat Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/token/contratoApi/CT003 - Contrato Token Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/token/funcionalApi/CT001 - Token Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/token/funcionalApi/CT002 - Token Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionCharges/funcionalApi/CT001 - Transaction Charges Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionCharges/funcionalApi/CT002 - Transaction Charges Uat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionChargesAll/funcionalApi/CT001 - Transaction Charges All Cat 200 Sucesso.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fiservFuncionalidades/transactionChargesAll/funcionalApi/CT002 - Transaction Charges All Uat 200 Sucesso.feature" afterDir="false" />
+    <list default="true" id="00c646c8-97cf-47e1-a5fe-59735dbc6b81" name="Changes" comment="Endpoints fiserv funcionalidades automatizados com sucesso">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "giovannizaoo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/giovannizaoo/fiserv.git",
+    "accountId": "64b5f25d-2faa-41c2-8046-67eff9565478"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -329,6 +258,19 @@
       <option name="presentableId" value="Default" />
       <updated>1761166228185</updated>
     </task>
+    <task id="LOCAL-00001" summary="Endpoints fiserv funcionalidades automatizados com sucesso">
+      <option name="closed" value="true" />
+      <created>1761771176616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761771176617</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Endpoints fiserv funcionalidades automatizados com sucesso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Endpoints fiserv funcionalidades automatizados com sucesso" />
   </component>
 </project>
